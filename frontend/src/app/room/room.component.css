@@ -1,0 +1,115 @@
+
+  .center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+  }
+
+  .card {
+    margin: 5px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #161925;
+    color: white;
+    text-align: center;
+    vertical-align: auto;
+  }
+
+  .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .indv-btn {
+    margin: 5px;
+  }
+
+  button {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #577399;
+    color: white;
+    box-shadow: 0px 8px 15px rgba(12, 12, 12, 0.582);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+  img {
+    max-width: 90%;
+    max-height: 70%;
+    padding-top: 7%;
+  }
+
+  .leaveRoom{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+
+  .leaveRoom button{
+    width: 200px;
+    height: 75px;
+  }
+
+  .closeRoom{
+    position: absolute;
+    top: 125px;
+    left: 25px;
+  }
+
+  .closeRoom button{
+    width: 200px;
+    height: 75px;
+  }
+
+  .closeServer{
+    position: absolute;
+    top: 225px;
+    left: 25px;
+  }
+
+  .closeServer button{
+    width: 200px;
+    height: 75px;
+  }
+  .room-id {
+    position: absolute;
+    width: 200px;
+    right: 25px;
+    font-size: 10px;
+  }
+
+  .nextRound{
+    text-align: center;
+  }
+
+  .nextRound button{
+    height: 100px;
+    width: 250px;
+  }
+
+  .winners{
+    position: absolute;
+    top: 325px;
+    left: 25px;
+    height: 250px;
+    width: 200px;
+    overflow-y: auto;
+  }
+
+  button:active, 
+ button:focus 
+ {
+     border: 3px solid #161925; 
+  }
+
+  

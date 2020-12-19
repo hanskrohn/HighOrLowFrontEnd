@@ -1,0 +1,17 @@
+
+    <div class="entire-container">
+        <div class="center-container">
+            <div class="title">
+                <h1>Welcome to High Or Low!</h1>
+            </div>
+            <div class="join-text">
+                <input id = "roomInput" (keyup) = "setId($event.target.value)"placeholder="ROOM NUMBER" id="room-num-input" type="text" maxlength="20">
+            </div>
+            <div class="button-containers">
+                <button id = "joinRoom" (click) = "join()">Join Room</button>
+            </div>
+            <div class="button-containers">
+                <button id = "createRoom" (click) = "create()">Create Room</button>
+            </div>
+        </div>
+    </div>
